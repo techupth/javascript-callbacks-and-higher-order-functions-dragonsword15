@@ -2,6 +2,10 @@
 
 function forEach(array, operation) {
   // Start coding here
+  for (let i = 0; i < array.length; i++) {
+    newEmployeeSalaries.push(array[i] + operation);
+    return newEmployeeSalaries;
+  }
 }
 
 const employeeSalaries = [20005, 40000, 32000, 14500, 344000];
